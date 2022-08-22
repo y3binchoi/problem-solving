@@ -1,4 +1,18 @@
-# Python 문법 정리
+# CodingTest
+# 📍목표
+
+- 코딩 테스트 감 잡기.
+- 라이브 코딩 테스트 대비.
+
+# ⚠️ 규칙
+
+- 매주 알고리즘 주제를 정합니다.
+- 해당 주제와 관련있는 문제를 3개 선정하여 풀고 양식에 따라 해설을 정리합니다.
+- 일요일 자정까지 문제 풀이를 완료합니다.
+- 월요일 자정까지 스터디원의 문제 풀이를 보고 코드 리뷰를 답니다.
+- 화요일 자정까지 스터디원의 피드백을 반영하여 코드를 개선합니다.
+
+# 🔍 Python Tips
 
 ### 입력
 
@@ -82,4 +96,24 @@ meeting.sort(key=lambda x: x[1])  # 1번째 원소 기준 정렬
 ```python
 kg = [build[i][0] for i in range(N)]
 cm = [build[i][1] for i in range(N)]
+```
+
+### 사전 활용
+
+### 
+
+```python
+
+```
+
+### 알고리즘 성능평가
+
+### Python 수행시간 측정 소스코드
+
+```python
+import time
+start_time = time.time()  # 측정 시작
+## 프로그램 소스코드
+end_time = time.time()  # 측정 종료
+print("time: ", end_time - start_time)  # 수행 시간 출력
 ```
