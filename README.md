@@ -1,14 +1,18 @@
 # CodingTest
+
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sw_devin)](https://solved.ac/sw_devin)
+
 ## 📍목표
 
-- 코딩 테스트 감 잡기.
+- 코딩 테스트 감 잃지 않기.
 - 라이브 코딩 테스트 대비.
 
 ## ⚠️ 규칙
 
 - 매주 알고리즘 주제를 정합니다.
 - 해당 주제와 관련있는 문제를 3개 선정하여 풀고 양식에 따라 해설을 정리합니다.
-- 일요일 자정까지 문제 풀이를 완료합니다.
+- 일요일 자정까지 문제 풀이를 완료합니다. [문제 정리 노션](https://yebini.notion.site/8bdfab3193b14ba6adf1695372df85f3?v=5309f437f6a140c8829b2e3132864ff5)
 - 월요일 자정까지 스터디원의 문제 풀이를 보고 코드 리뷰를 답니다.
 - 화요일 자정까지 스터디원의 피드백을 반영하여 코드를 개선합니다.
 
@@ -87,8 +91,8 @@ ex_lost = [i for i in lost if i not in reserve]
 **이중리스트 정렬하기**
 
 ```python
-meeting.sort(key=lambda x: x[0])  # 0번째 원소 기준 정렬
 meeting.sort(key=lambda x: x[1])  # 1번째 원소 기준 정렬
+meet = sorted(meeting, key=lambda x:x[1])
 ```
 
 **이중리스트의 특정 위치 원소만 뽑아내기**
@@ -100,13 +104,12 @@ cm = [build[i][1] for i in range(N)]
 
 ### 사전 활용
 
-### 
+**사전의 기본값 생성**
 
 ```python
-
+from collections import defaultdict
+graph = defaultdict(list)   # 기본값이 list()로 지정됨
 ```
-
-### 알고리즘 성능평가
 
 ### Python 수행시간 측정 소스코드
 
