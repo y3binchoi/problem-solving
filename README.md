@@ -1,7 +1,7 @@
 # CodingTest
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sw_devin)](https://solved.ac/sw_devin)
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=sw_devin)](https://solved.ac/sw_devin)
+[![Solved.ac잔디](http://mazandi.herokuapp.com/api?handle=sw_devin&theme=warm)](https://solved.ac/sw_devin)
 
 ## 📍목표
 
